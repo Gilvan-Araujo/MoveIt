@@ -1,13 +1,13 @@
 <!--
 *** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the moveit-next and create a pull request
+*** that would make this better, please fork the moveitnext and create a pull request
 *** or simply open an issue with the tag "enhancement".
 *** Thanks again! Now go create something AMAZING! :D
 ***
 ***
 ***
 *** To avoid retyping too much info. Do a search and replace for the following:
-*** gilvan-araujo, moveit-next, twitter_handle, gilvanjunior@protonmail.com, MoveIt-Next, Application developed for the fourth edition of the Next Level Week by Rocketseat.
+*** gilvan-araujo, moveitnext, twitter_handle, gilvanjunior@protonmail.com, MoveItNext, Application developed for the fourth edition of the Next Level Week by Rocketseat.
 -->
 
 <!-- PROJECT SHIELDS -->
@@ -29,20 +29,20 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/gilvan-araujo/moveit-next">
+  <a href="https://github.com/gilvan-araujo/moveitnext">
     <img src="public/logo.svg" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">MoveIt-Next</h3>
+  <h3 align="center">MoveItNext</h3>
 
   <p align="center">
     Application developed for the fourth edition of the Next Level Week by Rocketseat.
     <br />
     <a href="https://moveit-gray.vercel.app/">View Demo</a>
     ·
-    <a href="https://github.com/gilvan-araujo/moveit-next/issues">Report Bug</a>
+    <a href="https://github.com/gilvan-araujo/moveitnext/issues">Report Bug</a>
     ·
-    <a href="https://github.com/gilvan-araujo/moveit-next/issues">Request Feature</a>
+    <a href="https://github.com/gilvan-araujo/moveitnext/issues">Request Feature</a>
   </p>
 </p>
 
@@ -111,10 +111,10 @@ To get a local copy up and running follow these simple steps.
 
 ### Installation
 
-1. Clone the moveit-next
+1. Clone the moveitnext
 
    ```sh
-   git clone https://github.com/gilvan-araujo/moveit-next.git
+   git clone https://github.com/gilvan-araujo/moveitnext.git
    ```
 
 2. Add TypeScript support through yarn
@@ -161,7 +161,7 @@ This project can be used to help people that stay in front of the computer for t
 
 ### Issues
 
-See also the [open issues](https://github.com/gilvan-araujo/moveit-next/issues) for a list of proposed features (and known issues).
+See also the [open issues](https://github.com/gilvan-araujo/moveitnext/issues) for a list of proposed features (and known issues).
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -184,21 +184,21 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Gilvan Araújo - gilvanjunior@protonmail.com
 
-Project Link: [https://github.com/gilvan-araujo/moveit-next](https://github.com/gilvan-araujo/moveit-next)
+Project Link: [https://github.com/gilvan-araujo/moveitnext](https://github.com/gilvan-araujo/moveitnext)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[codefactor-shield]: https://img.shields.io/codefactor/grade/github/gilvan-araujo/moveit-next?style=for-the-badge
-[codefactor-url]: https://www.codefactor.io/repository/github/gilvan-araujo/moveit-next
-[contributors-shield]: https://img.shields.io/github/contributors/gilvan-araujo/moveit-next.svg?style=for-the-badge
-[contributors-url]: https://github.com/gilvan-araujo/moveit-next/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/gilvan-araujo/moveit-next.svg?style=for-the-badge
-[forks-url]: https://github.com/gilvan-araujo/moveit-next/network/members
-[stars-shield]: https://img.shields.io/github/stars/gilvan-araujo/moveit-next.svg?style=for-the-badge
-[stars-url]: https://github.com/gilvan-araujo/moveit-next/stargazers
-[issues-shield]: https://img.shields.io/github/issues/gilvan-araujo/moveit-next.svg?style=for-the-badge
-[issues-url]: https://github.com/gilvan-araujo/moveit-next/issues
-[license-shield]: https://img.shields.io/github/license/gilvan-araujo/moveit-next.svg?style=for-the-badge
-[license-url]: https://github.com/gilvan-araujo/moveit-next/blob/master/LICENSE.txt
+[codefactor-shield]: https://img.shields.io/codefactor/grade/github/gilvan-araujo/moveitnext?style=for-the-badge
+[codefactor-url]: https://www.codefactor.io/repository/github/gilvan-araujo/moveitnext
+[contributors-shield]: https://img.shields.io/github/contributors/gilvan-araujo/moveitnext.svg?style=for-the-badge
+[contributors-url]: https://github.com/gilvan-araujo/moveitnext/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/gilvan-araujo/moveitnext.svg?style=for-the-badge
+[forks-url]: https://github.com/gilvan-araujo/moveitnext/network/members
+[stars-shield]: https://img.shields.io/github/stars/gilvan-araujo/moveitnext.svg?style=for-the-badge
+[stars-url]: https://github.com/gilvan-araujo/moveitnext/stargazers
+[issues-shield]: https://img.shields.io/github/issues/gilvan-araujo/moveitnext.svg?style=for-the-badge
+[issues-url]: https://github.com/gilvan-araujo/moveitnext/issues
+[license-shield]: https://img.shields.io/github/license/gilvan-araujo/moveitnext.svg?style=for-the-badge
+[license-url]: https://github.com/gilvan-araujo/moveitnext/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/gilvan-araujo
