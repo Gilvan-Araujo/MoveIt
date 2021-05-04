@@ -5,14 +5,11 @@
 }
 
 :root {
-    --white: #fff;
-    --gray-line: hsl(0, 0%, 70%);
-    --text: hsl(0, 0%, 40%);
-    --text-highlight: #b3b9ff;
-    --title: #2e384d;
-    --black: #000;
-    --red: #FF2819;
-    --green: #3DFF0D;
+    --white: hsl(0, 0%, 100%);
+    --gray-line: hsl(0, 0%, 50%);
+    --black: hsl(0, 0%, 0%);
+    --red: hsl(4, 100%, 50%);
+    --green: hsl(108, 100%, 50%);
     --blue-100: hsl(210, 100%, 90%);
     --blue-200: hsl(210, 100%, 80%);
     --blue-300: hsl(210, 100%, 70%);
@@ -37,8 +34,8 @@
 }
 
 body {
-    background: var(--background);
-    color: var(--text);
+    background: var(--blue-900);
+    color: var(--blue-100);
 }
 
 body, input, textarea, button {
