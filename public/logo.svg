@@ -14,7 +14,7 @@
    version="1.1"
    id="svg29"
    sodipodi:docname="logo.svg"
-   inkscape:version="1.0.2 (e86c870879, 2021-01-15)">
+   inkscape:version="1.0.2 (394de47547, 2021-03-26)">
   <metadata
      id="metadata33">
     <rdf:RDF>
@@ -23,7 +23,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -46,22 +46,27 @@
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg29" />
+     inkscape:current-layer="svg29"
+     inkscape:document-rotation="0" />
   <g
      id="g871"
-     transform="matrix(0.81739135,0,0,0.81739135,2.5003992,3.0346509)">
+     transform="matrix(0.81739135,0,0,0.81739135,2.5003992,3.0346509)"
+     style="fill:#0080ff;fill-opacity:1">
     <path
        d="M 25.5088,3.745 H 37.4829 L 27.5215,50 H 15.5474 Z"
        fill="#5965e0"
-       id="path14" />
+       id="path14"
+       style="fill:#0080ff;fill-opacity:1" />
     <path
        d="M 43.0786,3.745 H 55.0527 L 47.2914,39.9868 H 35.3145 Z"
        fill="#5965e0"
-       id="path16" />
+       id="path16"
+       style="fill:#0080ff;fill-opacity:1" />
     <path
        d="M 7.76366,3.745 H 19.7378 L 11.9765,39.9868 H -4.88281e-4 Z"
        fill="#5965e0"
-       id="path18" />
+       id="path18"
+       style="fill:#0080ff;fill-opacity:1" />
   </g>
   <defs
      id="defs27">
