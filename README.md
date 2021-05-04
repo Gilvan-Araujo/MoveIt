@@ -148,14 +148,14 @@ This project can be used to help people that stay in front of the computer for t
 ### Personal Features
 
 * [ ] Improve responsivity
-  * [ ] Media queries for mobile
+  * [x] Media queries for mobile
   * [ ] Look up Next.JS PWA
 * [ ] Different color schemes
-  * [ ] Dark theme
-  * [ ] Grey theme
+  * [x] Dark theme
+  * [ ] Light theme and toggle
 * [ ] New functionalities
   * [ ] Login through GitHub (OAuth Github)
-  * [ ] Serverless Next.JS 
+  * [ ] Serverless Next.JS
   * [ ] Sidebar and ranking
   * [ ] Share on Twitter
 
