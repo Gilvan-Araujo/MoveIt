@@ -149,7 +149,7 @@ This project can be used to help people that stay in front of the computer for t
 
 * [ ] Improve responsivity
   * [x] Media queries for mobile
-  * [ ] Look up Next.JS PWA
+  * [x] Look up Next.JS PWA
 * [ ] Different color schemes
   * [x] Dark theme
   * [ ] Light theme and toggle
