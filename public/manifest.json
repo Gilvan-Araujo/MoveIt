@@ -3,7 +3,7 @@
   "short_name": "Moveit",
   "theme_color": "#0080ff",
   "background_color": "#0080ff",
-  "display": "browser",
+  "display": "fullscreen",
   "orientation": "portrait",
   "scope": "/",
   "start_url": "/",
