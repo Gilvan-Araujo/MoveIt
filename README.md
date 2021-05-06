@@ -74,7 +74,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![screenshot-moveit](https://user-images.githubusercontent.com/45008443/109997853-66e14780-7cef-11eb-9902-eb41763b383f.png)](https://moveit-gray.vercel.app/)
+[![screenshot-moveit](https://user-images.githubusercontent.com/45008443/117358250-4d45b300-ae8c-11eb-9acb-5dde5b95d887.png)](https://moveit-gray.vercel.app/)
 
 ### Built With
 
@@ -133,13 +133,13 @@ To get a local copy up and running follow these simple steps.
 ## Usage
 
 This project can be used to help people that stay in front of the computer for too long by having them do exercises for both eyes and body after a set amount of time.
-![body-challenge](https://user-images.githubusercontent.com/45008443/110000998-acebda80-7cf2-11eb-8be3-e2476721b673.png)
+![body-challenge](https://user-images.githubusercontent.com/45008443/117358254-4e76e000-ae8c-11eb-8d04-e79eadfd774a.png)
 *Example of a bodily challenge* &nbsp;
 
-![eye-challenge](https://user-images.githubusercontent.com/45008443/110001299-00f6bf00-7cf3-11eb-8452-a71c6f84594c.png)
+![eye-challenge](https://user-images.githubusercontent.com/45008443/117358261-4fa80d00-ae8c-11eb-8b65-f95cf5d08548.png)
 *Example of an ocular challenge*
 
-![level-up](https://user-images.githubusercontent.com/45008443/110001306-03591900-7cf3-11eb-8335-d8dca6ee0169.png)
+![level-up](https://user-images.githubusercontent.com/45008443/117358259-4f0f7680-ae8c-11eb-94a7-d7b8437648a5.png)
 *Levelling up screen*
 
 <!-- ROADMAP -->
