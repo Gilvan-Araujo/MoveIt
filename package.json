@@ -8,6 +8,10 @@
     "start": "next start"
   },
   "dependencies": {
+    "@chakra-ui/react": "^1.6.4",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "framer-motion": "^4",
     "js-cookie": "^2.2.1",
     "next": "10.0.7",
     "next-pwa": "^5.2.21",
