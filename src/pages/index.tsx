@@ -1,20 +1,21 @@
-import Head from 'next/head'
 import { GetServerSideProps } from 'next'
+import Head from 'next/head'
+import react from 'react'
 
-import { ChallengeBox } from '../components/ChallengeBox';
+import { Container, Flex } from '@chakra-ui/react'
+
+import { ChallengeBox } from '../components/ChallengeBox'
 import { CompletedChallenges } from '../components/CompletedChallenges'
-import { Countdown } from '../components/Countdown';
-import { ExperienceBar } from '../components/ExperienceBar';
-import { Profile } from '../components/Profile';
-import { CountdownProvider } from '../contexts/CountdownContext';
-
-import styles from '../styles/pages/Home.module.scss';
-import { ChallengesProvider } from '../contexts/ChallengesContext';
+import { Countdown } from '../components/Countdown'
+import { ExperienceBar } from '../components/ExperienceBar'
+import { Profile } from '../components/Profile'
+import { ChallengesProvider } from '../contexts/ChallengesContext'
+import { CountdownProvider } from '../contexts/CountdownContext'
 
 interface HomeProps {
-  level: number;
-  currentExperience: number;
-  challengesCompleted: number;
+  level: number
+  currentExperience: number
+  challengesCompleted: number
 }
 
 export default function Home(props) {
@@ -24,14 +25,29 @@ export default function Home(props) {
       currentExperience={props.currentExperience}
       challengesCompleted={props.challengesCompleted}
     >
-      <div className={styles.container}>
+      <Container
+        minH="100vh"
+        maxW="992px"
+        my={0}
+        mx="auto"
+        py="2.5rem"
+        px="2rem"
+        display="flex"
+        flexDirection="column"
+      >
         <Head>
           <title>Início | Moveit</title>
         </Head>
         <ExperienceBar />
 
         <CountdownProvider>
-          <section>
+          <Flex
+            flex="1"
+            display="grid"
+            gridGap={{ base: '5rem', md: '6.25rem' }}
+            gridTemplateColumns={{ md: '1fr 1fr' }}
+            alignContent="center"
+          >
             <div>
               <Profile />
               <CompletedChallenges />
@@ -40,15 +56,15 @@ export default function Home(props) {
             <div>
               <ChallengeBox />
             </div>
-          </section>
+          </Flex>
         </CountdownProvider>
-      </div>
+      </Container>
     </ChallengesProvider>
   )
 }
 
-export const getServerSideProps: GetServerSideProps = async (ctx) => {
-  const { level, currentExperience, challengesCompleted } = ctx.req.cookies;
+export const getServerSideProps: GetServerSideProps = async ctx => {
+  const { level, currentExperience, challengesCompleted } = ctx.req.cookies
 
   return {
     props: {
