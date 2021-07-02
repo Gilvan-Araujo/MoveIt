@@ -13,5 +13,10 @@ export const theme = extendTheme({
         flexDirection: 'column'
       }
     }
+  },
+  colors: {
+    green: {
+      500: 'hsl(108, 100%, 50%)'
+    }
   }
 })
