@@ -1,7 +1,8 @@
 import react, { useContext } from 'react'
 
-import { ChallengesContext } from '../contexts/ChallengesContext'
 import { Flex, Text } from '@chakra-ui/react'
+
+import { ChallengesContext } from '../contexts/ChallengesContext'
 
 export function CompletedChallenges() {
   const { challengesCompleted } = useContext(ChallengesContext)
