@@ -30,19 +30,19 @@
 <br />
 <p align="center">
   <a href="https://github.com/gilvan-araujo/moveitnext">
-    <img src="public/logo.svg" alt="Logo" width="80" height="80">
+    <img src="public/logo.svg" alt="Logo" height="80">
   </a>
 
-  <h3 align="center">MoveItNext</h3>
+  <h3 align="center">MoveIt</h3>
 
   <p align="center">
     Application developed for the fourth edition of the Next Level Week by Rocketseat.
     <br />
     <a href="https://moveit-gray.vercel.app/">View Demo</a>
     ·
-    <a href="https://github.com/gilvan-araujo/moveitnext/issues">Report Bug</a>
+    <a href="https://github.com/gilvan-araujo/moveit/issues">Report Bug</a>
     ·
-    <a href="https://github.com/gilvan-araujo/moveitnext/issues">Request Feature</a>
+    <a href="https://github.com/gilvan-araujo/moveit/issues">Request Feature</a>
   </p>
 </p>
 
@@ -74,12 +74,13 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![screenshot-moveit](https://user-images.githubusercontent.com/45008443/117358250-4d45b300-ae8c-11eb-9acb-5dde5b95d887.png)](https://moveit-gray.vercel.app/)
+[![screenshot-moveit](https://user-images.githubusercontent.com/45008443/124353931-d274ec00-dbdf-11eb-8111-6f1d99600f77.png)](https://moveit-gray.vercel.app/)
 
 ### Built With
 
 * [React JS](https://reactjs.org/)
 * [Next.JS](https://nextjs.org/)
+* [Chakra UI](http://chakra-ui.com/)
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -100,10 +101,10 @@ To get a local copy up and running follow these simple steps.
   See if it's installed with
 
   ```sh
-  yarn --version
+  yarn -v
   ```
 
-* npm and node.js
+* node and npm
 
   ```sh
   sudo apt install npm nodejs
@@ -111,49 +112,50 @@ To get a local copy up and running follow these simple steps.
 
 ### Installation
 
-1. Clone the moveitnext
+1. Clone the repo
 
    ```sh
-   git clone https://github.com/gilvan-araujo/moveitnext.git
+   git clone https://github.com/gilvan-araujo/moveit.git
    ```
 
-2. Add TypeScript support through yarn
+2. Install dependencies
 
    ```sh
-   yarn add typescript @types/react @types/react-dom @types/node -D
+   yarn
    ```
 
-3. And support for cookies
+3. Run it locally
 
    ```sh
-   yarn add @types/js-cookie -D
+   yarn dev
    ```
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-This project can be used to help people that stay in front of the computer for too long by having them do exercises for both eyes and body after a set amount of time.
-![body-challenge](https://user-images.githubusercontent.com/45008443/117358254-4e76e000-ae8c-11eb-8d04-e79eadfd774a.png)
+This project was built with the intent of helping people that stay in front of the computer for too long by having them do exercises for both eyes and body after a set amount of time.
+
+![body-challenge](https://user-images.githubusercontent.com/45008443/124353955-eddff700-dbdf-11eb-8eab-902f4b17a023.png)
 *Example of a bodily challenge* &nbsp;
 
-![eye-challenge](https://user-images.githubusercontent.com/45008443/117358261-4fa80d00-ae8c-11eb-8b65-f95cf5d08548.png)
+![eye-challenge](https://user-images.githubusercontent.com/45008443/124353935-d43eaf80-dbdf-11eb-89ef-fa3f5cdb0693.png)
 *Example of an ocular challenge*
 
-![level-up](https://user-images.githubusercontent.com/45008443/117358259-4f0f7680-ae8c-11eb-94a7-d7b8437648a5.png)
+![level-up](https://user-images.githubusercontent.com/45008443/124353933-d3a61900-dbdf-11eb-8758-2ccaf33aadb3.png)
 *Levelling up screen*
 
 <!-- ROADMAP -->
 ## Roadmap
 
-### Personal Features
+### Proposed Features
 
-* [x] Improve responsivity
+* Improve responsivity
   * [x] Media queries for mobile
   * [x] Implement PWA
-* [ ] Different color schemes
+* Different color schemes
   * [x] Dark theme
   * [ ] Light theme and toggle
-* [ ] New functionalities
+* New functionalities
   * [ ] Login through GitHub (OAuth Github)
   * [ ] Serverless Next.JS
   * [ ] Sidebar and ranking
@@ -169,9 +171,9 @@ See also the [open issues](https://github.com/gilvan-araujo/moveitnext/issues) f
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
+2. Create your Feature Branch (`git checkout -b feat/AmazingFeature`)
+3. Commit your Changes (`git commit -m ':sparkles: feat: add some amazing feature'`)
+4. Push to the Branch (`git push origin feat/AmazingFeature`)
 5. Open a Pull Request
 
 <!-- LICENSE -->
@@ -182,23 +184,23 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Gilvan Araújo - gilvanjunior@protonmail.com
+Gilvan Araújo - gilvanjunior@pm.me
 
-Project Link: [https://github.com/gilvan-araujo/moveitnext](https://github.com/gilvan-araujo/moveitnext)
+Project Link: [https://github.com/gilvan-araujo/moveit](https://github.com/gilvan-araujo/moveit)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[codefactor-shield]: https://img.shields.io/codefactor/grade/github/gilvan-araujo/moveitnext?style=for-the-badge
-[codefactor-url]: https://www.codefactor.io/repository/github/gilvan-araujo/moveitnext
-[contributors-shield]: https://img.shields.io/github/contributors/gilvan-araujo/moveitnext.svg?style=for-the-badge
-[contributors-url]: https://github.com/gilvan-araujo/moveitnext/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/gilvan-araujo/moveitnext.svg?style=for-the-badge
-[forks-url]: https://github.com/gilvan-araujo/moveitnext/network/members
-[stars-shield]: https://img.shields.io/github/stars/gilvan-araujo/moveitnext.svg?style=for-the-badge
-[stars-url]: https://github.com/gilvan-araujo/moveitnext/stargazers
-[issues-shield]: https://img.shields.io/github/issues/gilvan-araujo/moveitnext.svg?style=for-the-badge
-[issues-url]: https://github.com/gilvan-araujo/moveitnext/issues
-[license-shield]: https://img.shields.io/github/license/gilvan-araujo/moveitnext.svg?style=for-the-badge
-[license-url]: https://github.com/gilvan-araujo/moveitnext/blob/master/LICENSE.txt
+[codefactor-shield]: https://img.shields.io/codefactor/grade/github/gilvan-araujo/moveit?style=for-the-badge
+[codefactor-url]: https://www.codefactor.io/repository/github/gilvan-araujo/moveit
+[contributors-shield]: https://img.shields.io/github/contributors/gilvan-araujo/moveit.svg?style=for-the-badge
+[contributors-url]: https://github.com/gilvan-araujo/moveit/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/gilvan-araujo/moveit.svg?style=for-the-badge
+[forks-url]: https://github.com/gilvan-araujo/moveit/network/members
+[stars-shield]: https://img.shields.io/github/stars/gilvan-araujo/moveit.svg?style=for-the-badge
+[stars-url]: https://github.com/gilvan-araujo/moveit/stargazers
+[issues-shield]: https://img.shields.io/github/issues/gilvan-araujo/moveit.svg?style=for-the-badge
+[issues-url]: https://github.com/gilvan-araujo/moveit/issues
+[license-shield]: https://img.shields.io/github/license/gilvan-araujo/moveit.svg?style=for-the-badge
+[license-url]: https://github.com/gilvan-araujo/moveit/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/gilvan-araujo
