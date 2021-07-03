@@ -18,7 +18,7 @@ export default class MyDocument extends Document {
           />
 
           <meta charSet="UTF-8" />
-          <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+          <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta name="description" content="Description" />
           <meta name="keywords" content="Keywords" />
 
